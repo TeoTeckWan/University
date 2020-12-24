@@ -281,7 +281,7 @@ def updRec(stuID):
         
     elif confirm.upper() == "R":
         os.system("cls")
-        recRead()
+        recRead(stuID)
         updRec(stuID)
         
     elif confirm.upper() == "A":
