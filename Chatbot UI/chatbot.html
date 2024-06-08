@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamie Chatbot</title>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo">
+        <img src="chatbox_elements/logo.png" alt="logo">
+    </div>
+    <div class="line"></div>
+    <div class="container">
+        <!-- Chat Box -->
+        <div class="chatbox">
+            <div class="title">ChatBot</div>
+
+            <!-- Bot Profile -->
+            <div class="bot">
+                <img src="chatbox_elements/profile.png" alt="jamie image">
+                <div class="bot-info">
+                    <h2>Jamie</h2>
+                </div>
+            </div>
+
+            <!-- Main Chat -->
+            <div class="chats" id="chat-box"></div>
+
+            <!-- Input -->
+            <div class="input-box">
+                <input type="text" id="user-input" placeholder="Type a message...">
+                <button id="send-btn">
+                    <img src="chatbox_elements/send.png" alt="Send btn">Send
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        © 2023 Copyrights. All rights reserved.
+    </div>
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
